@@ -2303,7 +2303,7 @@ Kekule.ChemObject = Class.create(ObjectEx,
 				'getter': function(canCreate)
 				{
 					var r = this.getPropStoreFieldValue('info');
-					if ((!r) && canCreate)
+					if (!r)
 					{
 						r = {};
 						this.setPropStoreFieldValue('info', r);
