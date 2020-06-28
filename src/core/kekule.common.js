@@ -2300,6 +2300,7 @@ Kekule.ChemObject = Class.create(ObjectEx,
 		this.defineProp('info',
 			{
 				'dataType': DataType.HASH,
+				'defaultValue': {},
 				'getter': function(canCreate)
 				{
 					var r = this.getPropStoreFieldValue('info');
