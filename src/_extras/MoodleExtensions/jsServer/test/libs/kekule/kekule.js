@@ -156,7 +156,7 @@ function loadChildScriptFiles(scriptUrls, forceDomLoader, callback)
 var kekuleFiles = {
 	'lan': {
 		'files': [
-			'lan/json2.js',
+			//'lan/json2.js',
 			'lan/classes.js',
 			'lan/xmlJsons.js',
 			'lan/serializations.js'
